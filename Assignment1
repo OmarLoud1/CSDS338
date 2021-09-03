@@ -1,0 +1,15 @@
+#include <stdio.h>
+//author: Omar Loudghiri oxl51 || CSDS 338 Programming 1
+
+int main()
+{
+	int factorial = 1;
+	for ( int i = 1; i <= 10; i++)
+ 	{
+
+	printf("%d     ", i);
+	printf("%d    ", i*i); 	
+	printf("%d    ",factorial = factorial*i ); 
+	printf("\n");	
+	}
+}
